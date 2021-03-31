@@ -1,9 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-console.log('Hello from tsx!')
+console.log("Hello from tsx!");
 
-ReactDOM.render(
-  <p>Hello</p>,
-  document.getElementById('root'),
-)
+ReactDOM.render(<p>Hello</p>, document.getElementById("root"));
